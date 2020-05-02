@@ -1,0 +1,84 @@
+.navbar {
+    -webkit-box-shadow: 2px 2px 5px #;
+    box-shadow: 2px 2px 5px #3292a6;
+    background: #fff;
+    opacity: 0.8;
+
+
+
+}
+
+.nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px;
+}
+
+.nav-item:last-child {
+    padding-right: 0;
+}
+
+.nav-item .nav-link {
+    color: #252525;
+
+}
+
+.nav-link:hover {
+    color: #3292a6;
+
+}
+
+
+/*showcase css*/
+#showcase {
+    width: 100%;
+    height: 115vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(107, 175, 181, 0.7)), to(rgba(107, 175, 181, 0.7))),
+        url(img/mountains.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(107, 175, 181, 0.7), rgba(107, 175, 181, 0.7)),
+        url(img/mountains.jpg) no-repeat center/cover;
+
+
+
+}
+
+#showcase .btn {
+    border-radius: 0;
+}
+
+/*subscribe section*/
+#subscribe {
+    background: #252525;
+}
+
+/*author css*/
+
+#author img {
+    margin-top: -50px;
+}
+
+#author .card:hover {
+    background: #007BFF;
+    color: #fff;
+
+}
+
+#author .fa {
+    font-size: 20px;
+}
+
+#author .card:hover .fa {
+    color: #fff;
+}
+
+
+
+@media(max-width:576px) {
+    #showcase {
+        width: 100%;
+        height: 100%;
+    }
+
+    #showcase h1 {
+        font-size: 30px;
+    }
+}
